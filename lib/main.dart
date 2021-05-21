@@ -102,7 +102,7 @@ class _HomeState extends State<Home> {
                     dolar =
                         snapshot.data!["results"]["currencies"]["USD"]["buy"];
                     euro =
-                        snapshot.data!["results"]["currencies"]["EURO"]["buy"];
+                        snapshot.data!["results"]["currencies"]["EUR"]["buy"];
                     return SingleChildScrollView(
                       padding: EdgeInsets.all(10.0),
                       child: Column(
