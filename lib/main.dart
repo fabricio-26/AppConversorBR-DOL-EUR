@@ -137,7 +137,7 @@ Widget buildTextField(String label, String prefix, TextEditingController c, f) {
         enabledBorder:
             OutlineInputBorder(borderSide: BorderSide(color: Colors.amber)),
         focusedBorder:
-            OutlineInputBorder(borderSide: BorderSide(color: Colors.amber)),
+            OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
         prefixText: prefix),
     style: TextStyle(color: Colors.amber, fontSize: 25.0),
     onChanged: f,
